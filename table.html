@@ -1,0 +1,106 @@
+
+    <html>
+    <head>
+        <title>Cyber Threat Detection - Comparison Table</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(to right, #0066ff, #33ccff);
+                text-align: center;
+                color: white;
+            }
+            h2 {
+                color: #ffcc00;
+                text-shadow: 2px 2px 4px #000000;
+            }
+            table {
+                width: 80%;
+                margin: auto;
+                border-collapse: collapse;
+                background-color: rgba(255, 255, 255, 0.9);
+                color: black;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+                font-weight: bold;
+            }
+            th {
+                background-color: #ff6600;
+                color: white;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            tr:hover {
+                background-color: #ffff99;
+            }
+            h3 {
+                margin-top: 40px;
+                color: #ffcc00;
+                text-shadow: 2px 2px 4px #000000;
+            }
+            .precaution-list {
+                width: 80%;
+                margin: auto;
+                text-align: left;
+                background-color: rgba(255, 255, 255, 0.9);
+                color: black;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            }
+            li {
+                margin: 10px 0;
+                font-size: 16px;
+                font-weight: bold;
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Cyber Threat Detection - Performance Comparison</h2>
+        <table>
+            <tr>
+                <th>Algorithm Name</th>
+                <th>Accuracy (%)</th>
+                <th>Precision (%)</th>
+                <th>Recall (%)</th>
+                <th>F1 Score (%)</th>
+            </tr>
+            <tr>
+                <td>AutoEncoder</td>
+                <td>87.50</td>
+                <td>98.15</td>
+                <td>26.25</td>
+                <td>26.28</td>
+            </tr>
+            <tr>
+                <td>Random Forest</td>
+                <td>89.89</td>
+                <td>97.68</td>
+                <td>72.87</td>
+                <td>72.70</td>
+            </tr>
+            <tr>
+                <td>MLP</td>
+                <td>89.98</td>
+                <td>92.25</td>
+                <td>61.53</td>
+                <td>61.03</td>
+            </tr>
+        </table>
+
+        <h3>Precautionary Measures for Cyber Threats</h3>
+        <div class="precaution-list">
+            <ul>
+    <li><b>Denial of Service (DoS):</b> Implement rate limiting, use DDoS mitigation services, and deploy load balancers to handle excessive traffic attacks.</li><li><b>Man-in-the-Middle (MitM) Attack:</b> Use strong encryption (TLS/SSL), enable secure VPNs, and avoid unsecured public networks to prevent data interception.</li><li><b>SQL Injection (SQLi):</b> Use parameterized queries, prepared statements, and web application firewalls (WAFs) to prevent malicious database manipulation.</li><li><b>Cross-Site Scripting (XSS):</b> Implement content security policies (CSP), sanitize user inputs, and use secure coding practices to prevent script injection.</li><li><b>Phishing Attack:</b> Educate users on identifying phishing emails, use email filtering, and enable multi-factor authentication (MFA) to protect credentials.</li><li><b>Malware Attack:</b> Install and update antivirus software, avoid downloading files from untrusted sources, and regularly patch software vulnerabilities.</li><li><b>Normal:</b> No attack detected. Follow general cybersecurity best practices such as strong passwords, multi-factor authentication (MFA), and regular system updates.</li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    
